@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import 'hero';
+@import 'header';
+@import 'realisations';
+@import 'grid';
+@import 'carousel';
+@import 'mediaqueries';
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+body {
+  font-family : 'Montserrat', sans-serif;
+  background: url('../img/GRID.png')
+}
+
+.container{
+  width: 80%;
+  margin: 2rem auto;
+
+  p{
+    margin: 1rem 0;
+  }
+}
