@@ -1,4 +1,7 @@
 .main-header{
+  .logo{
+    background: url("/logo/logo-ibiza.png");
+  }
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -14,23 +17,31 @@
   a{
     text-decoration: inherit;
     color: #000;
-    text-transform: uppercase;
+    //text-transform: uppercase;
+    img{
+      width: 70%;
+      height: 80%;
+    }
   }
+
 
   .nav-links{
     display:flex;
     list-style: none;
 
+
     .nav-link{
 
-      a{
-        margin: .2rem;
-        padding : 1rem .5rem;
 
-        a:hover{
-          background: rgba(255,255,255,0.5 );
-        }
+      a {
+        margin: .2rem 2rem;
+        padding: -2rem .5rem;
       }
+        a:hover{
+          text-decoration: underline;
+          font-weight: bolder;
+        }
+
     }
   }
 
